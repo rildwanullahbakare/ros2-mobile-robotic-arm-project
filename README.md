@@ -39,3 +39,11 @@ To run this project, you need:
    ```sh
    git clone https://github.com/Realone16/ros2-mobile-robotic-arm-project.git
    cd ros2-mobile-robotic-arm-project
+
+2. **Source your ROS2 Workspace**:
+   ```sh
+   source /opt/ros/humble/setup.bash
+   
+3. **Launch the Robot in Gazebo**:
+   ```sh
+   ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
