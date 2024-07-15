@@ -81,7 +81,7 @@ To test the `diff_drive_controller` plugin, use the following command:
 
 ```sh
 ros2 topic pub -1 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2}, angular: {z: 0.0}}"
-
+```
 ## Camera Specifications
 
 A camera sensor has been added to the mobile base to provide visual feedback. The camera is mounted on a fixed joint on the base and includes both visual and collision properties.
