@@ -183,4 +183,4 @@ The robotic arm consists of three main parts: the base link, the forearm link, a
 To test the `joint_pose_trajectory` plugin, use the following command:
 
 ```sh
-ros2 topic pub -1 /set_joint_trajectory trajectory_msgs/msg/JointTrajectory '{header: {frame_id: arm_base_link}, joint_names: [arm_base_forearm_joint, forearm_hand_joint], points: [{positions: [0.0, 0.0]}]}'
+ros2 topic pub -1 /set_joint_trajectory trajectory_msgs/msg/JointTrajectory "{header: {frame_id: base_footprint}, joint_names: [base_forearm_joint, forearm_hand_joint], points: [{positions: [0.2, 0.8]}]}"
