@@ -47,3 +47,9 @@ To run this project, you need:
 3. **Launch the Robot in Gazebo**:
    ```sh
    ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
+
+## Robot Simulation
+
+Here is a short illustration of our robot simulation in action:
+
+![Robot Simulation](illustration/mobile_robotic_arm.gif)
